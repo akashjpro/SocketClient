@@ -63,12 +63,12 @@
                 android:inputType="textPersonName" />
 
             <Button
-                android:onClick="send"
                 android:id="@+id/btn_send"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_gravity="center_horizontal"
+                android:onClick="send"
                 android:text="Send"
                 android:textAllCaps="false"
                 android:textColor="@color/colorPrimary"
